@@ -1,18 +1,56 @@
-/* styles.css */
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004839;
+  padding: 1rem 2rem;
+  color: white;
+  position: relative;
+  z-index: 10;
+}
 
-body {
-    font-family: Arial, sans-serif;
-  }
-  
-  table {
-    border-collapse: collapse;
-  }
-  
-  table th, table td {
-    border: 1px solid #ccc;
-  }
-  
-  footer {
-    font-size: 14px;
-  }
-  
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.wallet-btn {
+  background-color: white;
+  color: #004839;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* HERO SECTION */
+.hero {
+  background: url('your-background-image.jpg') center/cover no-repeat;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin-top: 0; /* Prevents overlap */
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.hero p {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
